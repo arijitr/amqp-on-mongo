@@ -1,4 +1,5 @@
 
+// A sample publisher to show how to use the broker to publish messages to a topic.
 const Broker=require('./broker');
 const MONGO_URL='mongodb://localhost:27017?authSource=admin';
 let options={
